@@ -3,6 +3,8 @@
  *
  * This source code is licensed under the GPL v.3.0 license found in the
  * LICENSE file in the root directory of this source tree.
+ *
+ * Modified by J Miguel Farto to include LaTeX rendering (2021).
  */
 
 import React from 'react';
@@ -10,6 +12,7 @@ import emojiRegex from 'emoji-regex';
 import MentionLink from '../Components/Additional/MentionLink';
 import Poll from '../Components/Message/Media/Poll';
 import SafeLink from '../Components/Additional/SafeLink';
+import Latex from '../Components/Additional/Latex';
 import dateFormat from '../Utils/Date';
 import { searchChat, setMediaViewerContent } from '../Actions/Client';
 import { getChatTitle, isMeChat, isPrivateChat } from './Chat';
@@ -230,8 +233,8 @@ function getFormattedText(formattedText, t = k => k, options = { }) {
 
     const { text, entities } = formattedText;
     if (!text) return null;
-    if (!entities) return [text];
-    if (!entities.length) return [text];
+    if (!entities) return [<Latex>{text}</Latex>];
+    if (!entities.length) return [<Latex>{text}</Latex>];
 
     const isValidEntity = options.isValidEntity || (() => true);
     let deleteLineBreakAfterPre = false;
@@ -255,7 +258,7 @@ function getFormattedText(formattedText, t = k => k, options = { }) {
                 deleteLineBreakAfterPre = false;
             }
             if (textBefore) {
-                result.push(textBefore);
+                result.push(<Latex>{textBefore}</Latex>);
             }
         }
 
@@ -267,7 +270,7 @@ function getFormattedText(formattedText, t = k => k, options = { }) {
         }
 
         if (!isValidEntity(entity)) {
-            result.push(entityText);
+            result.push(<Latex>{entityText}</Latex>);
         } else {
 
             switch (type['@type']) {
@@ -416,7 +419,7 @@ function getFormattedText(formattedText, t = k => k, options = { }) {
                     break;
                 }
                 default:
-                    result.push(entityText);
+                    result.push(<Latex>{entityText}</Latex>);
                     break;
             }
         }
@@ -430,7 +433,7 @@ function getFormattedText(formattedText, t = k => k, options = { }) {
             textAfter = textAfter.substr(1);
         }
         if (textAfter) {
-            result.push(textAfter);
+            result.push(<Latex>{textAfter}</Latex>);
         }
     }
 

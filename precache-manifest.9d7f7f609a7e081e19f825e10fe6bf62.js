@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5fa88cc8c06d9883142e7260d5a7a386",
+    "revision": "5c80655cc9be4c8e70e04de410642fc8",
     "url": "/telemath/index.html"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/telemath/static/css/7.792a87e0.chunk.css"
   },
   {
-    "revision": "62a7597dd54436a3a1bc",
+    "revision": "cd3bcd3f7179aa9832bf",
     "url": "/telemath/static/css/main.912673cd.chunk.css"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/telemath/static/js/7.ca14dc27.chunk.js"
   },
   {
-    "revision": "62a7597dd54436a3a1bc",
-    "url": "/telemath/static/js/main.24e0c8c6.chunk.js"
+    "revision": "cd3bcd3f7179aa9832bf",
+    "url": "/telemath/static/js/main.94bf382e.chunk.js"
   },
   {
     "revision": "3ba5532e8865634833a5",

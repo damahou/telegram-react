@@ -7,12 +7,6 @@
 
 import React, { useRef, useLayoutEffect } from 'react';
 
-const MathJax = window.MathJax;
-
-const clearElementMath = (elements) => {
-    MathJax.typesetClear(elements);
-}
-
 function Latex(props) {
     const node = useRef();
     const text = props.children;
@@ -20,10 +14,10 @@ function Latex(props) {
     useLayoutEffect(() => {
         const element = [node.current];
 
-        MathJax.typeset(element);
+        window.MathJax.typeset(element);
 
         return () => {
-            MathJax.typesetClear(element);
+            window.MathJax.typesetClear(element);
         }
     },
     [text]);

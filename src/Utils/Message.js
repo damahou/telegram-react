@@ -228,13 +228,18 @@ function searchCurrentChat(event, text) {
     searchChat(chatId, text);
 }
 
+function latexFormat(text) {
+    return text.match(/(?:\$|\\\(|\\\[|\\begin\{.*?})/) ?
+        <Latex>{text}</Latex> : text
+}
+
 function getFormattedText(formattedText, t = k => k, options = { }) {
     if (formattedText['@type'] !== 'formattedText') return null;
 
     const { text, entities } = formattedText;
     if (!text) return null;
-    if (!entities) return [<Latex>{text}</Latex>];
-    if (!entities.length) return [<Latex>{text}</Latex>];
+    if (!entities) return [latexFormat(text)];
+    if (!entities.length) return [latexFormat(text)];
 
     const isValidEntity = options.isValidEntity || (() => true);
     let deleteLineBreakAfterPre = false;
@@ -258,7 +263,7 @@ function getFormattedText(formattedText, t = k => k, options = { }) {
                 deleteLineBreakAfterPre = false;
             }
             if (textBefore) {
-                result.push(<Latex>{textBefore}</Latex>);
+                result.push(latexFormat(textBefore));
             }
         }
 
@@ -270,7 +275,7 @@ function getFormattedText(formattedText, t = k => k, options = { }) {
         }
 
         if (!isValidEntity(entity)) {
-            result.push(<Latex>{entityText}</Latex>);
+            result.push(latexFormat(entityText));
         } else {
 
             switch (type['@type']) {
@@ -419,7 +424,7 @@ function getFormattedText(formattedText, t = k => k, options = { }) {
                     break;
                 }
                 default:
-                    result.push(<Latex>{entityText}</Latex>);
+                    result.push(latexFormat(entityText));
                     break;
             }
         }
@@ -433,7 +438,7 @@ function getFormattedText(formattedText, t = k => k, options = { }) {
             textAfter = textAfter.substr(1);
         }
         if (textAfter) {
-            result.push(<Latex>{textAfter}</Latex>);
+            result.push(latexFormat(textAfter));
         }
     }
 

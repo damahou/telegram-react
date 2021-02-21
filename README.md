@@ -19,7 +19,11 @@ Maths rendering is based on [MathJax](https://www.mathjax.org/).
 
 ![Sample screenshot 3](/src/Assets/Screenshots/TMath-3.png)
 
-### Running the App
+### Try the App
+
+Try it [here](https://damahou.github.io/telemath/).
+
+### Running the App locally and deploying your fork 
 
 Follow the instructions at
 [evgeny-nadymov/telegram-react](https://github.com/evgeny-nadymov/telegram-react)

@@ -1,22 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="IFTTT_Applet_Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" width="620px" height="620px" viewBox="0 0 620 620" enable-background="new 0 0 620 620" xml:space="preserve">
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="311.1667" y1="603.3333" x2="311.1667" y2="19">
-	<stop  offset="0" style="stop-color:#1D93D2"/>
-	<stop  offset="1" style="stop-color:#38B0E3"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="IFTTT_Applet_Logo"
+   x="0px"
+   y="0px"
+   width="620px"
+   height="620px"
+   viewBox="0 0 620 620"
+   enable-background="new 0 0 620 620"
+   xml:space="preserve"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.0.1 (1.0.1+r74)"
+   inkscape:export-filename="/opt/projects/telemath/public/img/icons/icon16.png"
+   inkscape:export-xdpi="2.508435"
+   inkscape:export-ydpi="2.508435"><metadata
+   id="metadata22"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs20" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1351"
+   inkscape:window-height="784"
+   id="namedview18"
+   showgrid="false"
+   showborder="false"
+   inkscape:zoom="0.66652876"
+   inkscape:cx="157.95201"
+   inkscape:cy="359.64418"
+   inkscape:window-x="437"
+   inkscape:window-y="181"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="IFTTT_Applet_Logo" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="311.1667"
+   y1="603.3333"
+   x2="311.1667"
+   y2="19"
+   gradientTransform="translate(1.0072344e-7,1.405081e-5)">
+	<stop
+   offset="0"
+   style="stop-color:#1D93D2"
+   id="stop2" />
+	<stop
+   offset="1"
+   style="stop-color:#38B0E3"
+   id="stop4" />
 </linearGradient>
-<circle fill="url(#SVGID_1_)" stroke="#FFFFFF" stroke-width="28" stroke-miterlimit="10" cx="311.167" cy="311.167" r="292.167"/>
-<path fill="#C8DAEA" d="M220.759,338.848l35.363,97.88c0,0,4.42,9.157,9.157,9.157s75.147-73.252,75.147-73.252l78.304-151.24
-	l-196.707,92.197L220.759,338.848z"/>
-<path fill="#A9C6D8" d="M267.646,363.949l-6.788,72.147c0,0-2.842,22.102,19.26,0c22.102-22.102,43.257-39.152,43.257-39.152"/>
-<g>
-	<path fill="#FFFFFF" d="M221.398,342.34l-72.734-23.7c0,0-8.683-3.526-5.894-11.525c0.575-1.65,1.736-3.052,5.21-5.473
-		c16.119-11.234,298.324-112.667,298.324-112.667s7.969-2.683,12.677-0.898c2.152,0.816,3.526,1.737,4.684,5.104
-		c0.421,1.225,0.663,3.83,0.631,6.42c-0.023,1.868-0.253,3.599-0.421,6.315c-1.719,27.732-53.145,234.705-53.145,234.705
-		s-3.076,12.112-14.103,12.524c-4.02,0.15-8.9-0.664-14.734-5.683c-21.635-18.612-96.42-68.87-112.944-79.924
-		c-0.93-0.622-1.197-1.433-1.354-2.222c-0.233-1.165,1.034-2.61,1.034-2.61S398.847,246.957,402.31,234.811
-		c0.268-0.941-0.739-1.406-2.105-1c-8.65,3.182-158.58,97.857-175.126,108.312C224.112,342.734,221.398,342.34,221.398,342.34z"/>
-</g>
-</svg>
+<circle
+   fill="url(#SVGID_1_)"
+   stroke="#ffffff"
+   stroke-width="28"
+   stroke-miterlimit="10"
+   id="circle7"
+   style="fill:url(#SVGID_1_);stroke:none"
+   cy="311.16699"
+   cx="311.16699"
+   r="292.16699"
+   inkscape:export-xdpi="84.11628"
+   inkscape:export-ydpi="84.11628" />
+
+
+
+<path
+   id="path861"
+   style="fill:#ffffff;stroke:#ffffff;stroke-width:8;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none"
+   d="M 180.04663,347.31858 C 165.42576,333.08193 148.64611,321.2478 130.96786,311.167 c 17.67825,-10.08081 34.4579,-21.91484 49.07877,-36.15159 h 262.24069 c 14.62086,14.23675 31.40053,26.07078 49.07878,36.15159 -17.67825,10.08079 -34.45792,21.91493 -49.07878,36.15158 z m 244.1793,19.38735 c -16.69106,19.53444 -30.1417,41.95793 -39.0159,66.13087 -4.26723,10.044 15.23171,10.92142 17.49273,3.08577 15.50897,-37.52913 40.58265,-71.49418 74.04508,-94.67991 14.48131,-10.24226 30.28027,-18.46935 46.62318,-25.23622 1.93023,-0.87743 3.4075,-2.69077 3.64504,-4.83944 -0.23743,-2.14824 -1.71481,-3.96235 -3.64504,-4.83945 -16.34291,-6.76676 -32.14187,-14.99406 -46.62318,-25.23621 -33.46243,-23.18576 -58.53611,-57.15078 -74.04508,-94.67992 -2.26102,-7.83575 -21.75996,-6.95811 -17.49273,3.08567 8.8742,24.17305 22.32484,46.59653 39.0159,66.13097 H 198.10807 c 16.69108,-19.53444 30.14182,-41.95792 39.01592,-66.13097 4.26722,-10.04378 -15.23172,-10.92142 -17.49274,-3.08567 -15.50897,37.52914 -40.58273,71.49416 -74.04506,94.67992 -14.48137,10.24215 -30.28019,18.46945 -46.623178,25.23621 -1.93027,0.87635 -3.40752,2.69066 -3.64509,4.83945 0.23753,2.14834 1.71482,3.96233 3.64509,4.83944 16.342988,6.76687 32.141808,14.99396 46.623178,25.23622 33.46233,23.18573 58.53609,57.15078 74.04506,94.67991 2.26102,7.83565 21.75996,6.95823 17.49274,-3.08577 -8.8741,-24.17294 -22.32484,-46.59643 -39.01592,-66.13087 z" /></svg>
